@@ -1,0 +1,14 @@
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+/coverage/
+/flutter_*.png
+/flutter_*.*
+/lib/generated_plugin_registrant.dart
+/linux/flutter/ephemeral/
+/macos/Flutter/GeneratedPluginRegistrant.swift
+/windows/flutter/ephemeral/
