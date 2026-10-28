@@ -1,0 +1,9 @@
+{
+  "name": "MedMinder Dashboard",
+  "short_name": "MedMinder",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f4f8f6",
+  "theme_color": "#087f75",
+  "description": "A responsive medication dashboard demo."
+}

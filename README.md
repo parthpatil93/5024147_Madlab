@@ -4,8 +4,9 @@
 
 This repository organizes the Flutter MAD Laboratory practicals by week. Each
 `week-*` directory is an independent home for its practical, report, and
-evidence. The practical folders are scaffolding only; implementations will be
-added separately when each week begins. The root is not a Flutter application.
+evidence. Implemented practicals are standalone Flutter projects; other week
+directories may still contain only scaffolding. The root is not a Flutter
+application.
 
 The `app/` directory is reserved for future application-level material, and
 `docs/` contains the teaching plan and progress tracker.
@@ -27,6 +28,6 @@ The `app/` directory is reserved for future application-level material, and
 ## Tooling Availability
 
 At repository setup time, neither the `flutter` nor `dart` executable was
-found on the environment's `PATH`. Flutter tooling is therefore not confirmed
-as installed in this environment. Recheck availability before beginning
-implementation.
+found on the environment's `PATH`; they were also unavailable during Week 5
+verification. Check `flutter doctor -v` before running a weekly project, and
+see that project's practical report for its command results.
