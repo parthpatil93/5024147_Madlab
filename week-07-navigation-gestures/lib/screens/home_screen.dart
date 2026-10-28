@@ -48,12 +48,17 @@ class _HomeScreenState extends State<HomeScreen> {
           ],
         ),
         actions: [
-          IconButton(
-            tooltip: 'Profile',
-            onPressed: () {},
-            icon: const Icon(Icons.account_circle_outlined),
+          const Padding(
+            padding: EdgeInsets.only(right: 20),
+            child: CircleAvatar(
+              radius: 17,
+              backgroundColor: Color(0xFFDCEBE4),
+              child: Icon(
+                Icons.account_circle_outlined,
+                color: Color(0xFF087F75),
+              ),
+            ),
           ),
-          const SizedBox(width: 8),
         ],
       ),
       body: SafeArea(
@@ -275,7 +280,12 @@ class _MedicineCard extends StatelessWidget {
                 width: 46,
                 height: 46,
                 decoration: BoxDecoration(
-                  color: medicine.color.withValues(alpha: 0.16),
+                  color: Color.fromARGB(
+                    40,
+                    medicine.color.red,
+                    medicine.color.green,
+                    medicine.color.blue,
+                  ),
                   borderRadius: BorderRadius.circular(14),
                 ),
                 child: Icon(medicine.icon, color: medicine.color, size: 25),

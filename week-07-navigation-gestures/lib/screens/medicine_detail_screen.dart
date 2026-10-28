@@ -46,7 +46,12 @@ class MedicineDetailScreen extends StatelessWidget {
                           width: 64,
                           height: 64,
                           decoration: BoxDecoration(
-                            color: medicine.color.withValues(alpha: 0.16),
+                            color: Color.fromARGB(
+                              40,
+                              medicine.color.red,
+                              medicine.color.green,
+                              medicine.color.blue,
+                            ),
                             borderRadius: BorderRadius.circular(18),
                           ),
                           child: Icon(
