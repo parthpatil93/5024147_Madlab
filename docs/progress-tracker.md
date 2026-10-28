@@ -5,7 +5,7 @@
 | 1 | Flutter Setup | Not started |
 | 2 | Hello World | Scaffolded; Flutter verification pending (SDK unavailable) |
 | 3 | Common Widgets | Not started |
-| 4 | Interactive Forms | Not started |
+| 4 | Interactive Forms | Scaffolded; Flutter verification pending (SDK unavailable) |
 | 5 | Layout Widgets | Not started |
 | 6 | Icons, Images, and Charts | Not started |
 | 7 | Navigation and Gestures | Not started |

@@ -1,0 +1,9 @@
+{
+  "name": "MedMinder | Create Profile",
+  "short_name": "MedMinder",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#F4F8F6",
+  "theme_color": "#087F75",
+  "description": "A local-only profile form for MAD Laboratory Practical 4"
+}
