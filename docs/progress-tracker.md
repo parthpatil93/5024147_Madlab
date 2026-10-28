@@ -8,7 +8,7 @@
 | 4 | Interactive Forms | Scaffolded; Flutter verification pending (SDK unavailable) |
 | 5 | Layout Widgets | Implemented; Flutter verification pending (SDK unavailable) |
 | 6 | Icons, Images, and Charts | Scaffolded; Flutter verification pending (SDK unavailable) |
-| 7 | Navigation and Gestures | Not started |
+| 7 | Navigation and Gestures | Scaffolded; Flutter verification pending (SDK unavailable) |
 | 8 | Files, Libraries, and JSON | Not started |
 | 9 | Firebase Integration | Not started |
 | 10 | Testing and Deployment | Not started |
