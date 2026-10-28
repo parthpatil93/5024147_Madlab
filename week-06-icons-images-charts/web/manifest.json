@@ -1,0 +1,9 @@
+{
+  "name": "MedMinder | Weekly Overview",
+  "short_name": "MedMinder",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#F4F7F2",
+  "theme_color": "#087F75",
+  "description": "Offline-first sample adherence analytics for Practical 6"
+}
